@@ -15,7 +15,7 @@ function timeConversion(minutes) {
 
   // 2. find the remaining minutes
   const onlyMinutes = minutes % 60;
-  if (typeof minutes !== number) {
+  if (typeof (minutes) != Number) {
     return "please enter only a number!";
     
   }
