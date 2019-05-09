@@ -1,5 +1,6 @@
 function factorial(num) {
-    let multi = 1
+    //try to initialize a value to hold the required output, which is then to be invoked later
+    let multi = num
     // if (factorial ==)
     for(i=0 ; i <= num; i++){
         multi = multi * i
@@ -8,7 +9,6 @@ function factorial(num) {
 }
 factorial(5); //should return 120??
 
-/* 
 function factorial(num){
     let multi = 1
     while(factorial)
@@ -18,8 +18,6 @@ function factorial(num){
         factorial => num - 1
     }
     for ( num > 1; i < num-1; num**) {
-        multi 
+        return multi =* i 
     }
     console.log(multi);
-
-} */
